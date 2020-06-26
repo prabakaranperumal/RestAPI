@@ -35,6 +35,7 @@ public class CreateProjectMandatoryTest extends ConfigClass
 		String expSccMsg1=data.FetchDataFromExcel("TestData", 3, 1);
 		Assert.assertTrue(actSccMsg1.contains(expSccMsg1));
 		Reporter.log("project created successfully",true);
+		System.out.println("praba");
 		
 	}
 }
