@@ -42,7 +42,7 @@ public class DuplicateProjectTest extends ConfigClass
 		String  finexpMsg= data.FetchDataFromExcel("TestData", 3, 1);
 		Assert.assertTrue(finSccMsg.contains(finexpMsg));
 		Reporter.log("Duplicate project created Successfully",true);
-		System.out.println("-------------------------------------------------");
+		
 	}
 
 

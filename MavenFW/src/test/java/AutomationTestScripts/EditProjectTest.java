@@ -36,6 +36,6 @@ public class EditProjectTest extends ConfigClass
 			String  expEditSccMsg= data.FetchDataFromExcel("TestData", 9, 1);
 			Assert.assertTrue(editSccMsg.contains(expEditSccMsg));
 			Reporter.log("Project Edited Successfully",true);
-			
+			System.out.println("-------------");
 	}	
 }
